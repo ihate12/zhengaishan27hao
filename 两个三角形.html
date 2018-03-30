@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Conmpatible" content="IE=edge">
+	<title>三角形</title>
+	<meta name="viewport" conten="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	</head>
+	<body>
+		<center>
+			<script>
+				var a = parseInt(prompt("请输入行数","5"));  //parseInt是转换int类型，prompt是跳出弹框
+				//倒三角
+				for (var i = a - 1; i >= 0; i--)
+				{
+					for(var j = 0; j <= i; j++)
+					{
+						document.write(" * ");
+					}
+					document.write("<br>");
+				}
+				for (var i = 0; i < a + 1; i++)
+				{
+					for (var j = 0; j < i;j++)
+					{
+							document.write(" * ");
+					}
+					document.write("<br>");
+				}
+
+							
+			</script>
+		</center>
+	</body>
+	</html>
